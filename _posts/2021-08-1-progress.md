@@ -12,11 +12,11 @@ Now even though I'm no where near my goals for my progress in data science (whic
 <img src="https://images.unsplash.com/photo-1614555281536-6755500b7494?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80" alt="less is more" width="480" height="500"/>
 
 I've always liked this qoute the first time I knew about it was when I was reading about linux commands and the "less" was used to show the contents of a file therefore more of that file, "but what does this have to do with me not making progress" you might rightfully ask, well the my first advice is to work with as LESS learning resources as possible (courses, books, blog posts,...ect) this might seem counterintuitive at first but if you're anything like me (a person who litterly wants to know everything at the same time),you might find yourself very distracted with tons of courses you'll never finish and PDFs you never really read.
-So the best advice I can give you is to not do more than one course or a book simultanously this will make you understand details better and you will not feel rushed to finish it for the sake of it.
+So the best advice I can give you is to not do more than one course or a book simultaneously this will make you understand details better and you will not feel rushed to finish it for the sake of it.
 
 
 ## You're comparing between technologies
-So is it Python or R, Tensorflow or Pytorch, React or Angular or Vue, bla bla bla this is the most useless conversation or web search you'll ever make, But believe it or not this kind of things really wast a lot of time becuase the will discourge you and get you to switch in the middle of the road. Recentlly I've come across a tweet by francios chollet (the creator of keras) which really summries my whole point here perfectlly "The best programming language is the one you know well and enjoy using. The one  that makes you feel productive.". so next time when you have this kind of thoughs try to think about "what" are you making and the "How" part will be easier and clearer.
+So is it Python or R, Tensorflow or Pytorch, React or Angular or Vue, bla bla bla this is the most useless conversation or web search you'll ever make, But believe it or not this kind of things really wast a lot of time becuase they will discourge you and get you to switch in the middle of the road. Recentlly I've come across a tweet by francios chollet (the creator of keras) which really summries my whole point here perfectlly "The best programming language is the one you know well and enjoy using. The one  that makes you feel productive.". so next time when you have this kind of thoughs try to think about "what" are you making and the "How" part will be easier and clearer.
 
 <img src="https://images.unsplash.com/photo-1464374288807-174911d4adb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=336&q=80" alt="less is more" width="450" height="500"/>
 
@@ -43,4 +43,4 @@ Try to reach out to as many people as possible in your area of intrest this will
 <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="less is more" width="500" height="500"/>
 
 ## Final thoughts
-This is the first real post in this blog I hope you enjoyed this post feel free to reach out to me if you have any comments. I'll try to publish this posts more often.
+This is the first real post in this blog I hope you enjoyed this post and found it useful, feel free to reach out to me if you have any comments. I'll try to publish this posts more often.
