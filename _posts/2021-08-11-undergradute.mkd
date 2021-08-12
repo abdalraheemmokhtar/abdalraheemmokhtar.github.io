@@ -1,0 +1,37 @@
+---
+layout: post
+title: "What I've learned from my undergrad years"
+subtitle: ""
+date: 2021-08-11 20:45:13 -0400
+background: 'https://images.unsplash.com/photo-1525921429624-479b6a26d84d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29sbGVnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
+---
+
+
+## What I've learned from my undergrad years
+<em>"A university is a collection of buildings where in exchange for all your time, money,  and dignity you'll get rewarded with a clammy hand shake, some paper with special ribbon on it, and a life time of crippling social regrets."</em> This is the opening statement of one of my favorite YouTube videos (I'll leave a link to it below) I think it's a good start this post.
+Now that I'm at my last semester of college, I find myself thinking a lot about my whole academic life. Few days ago friend of mine was singing a songs which lyrics translates to "All of this was for what " even thought the context is completely different I started to think: "of what use where all of this courses?" "Will I ever need the informations I learned in that year?", "What are the real life applications for that concept? why did I even bother with it". 
+In this post I'll try to summarize my thoughts about my years in college, and what was good and what was not. 
+
+### First let's start with the good things:
+To be frank not many of them can be said when we're talking about my college, but I still can't say there was none.
+I think the best thing for me was that the fact that there's a lot of people to look up to. I'm talking about alumni that are now working in the biggest tech companies in the world (Google,  Facebook,..)in very exciting careers or doing their post grad studies in leading universities, and they managed to do it in "relatively" short time. These kind of people really gives me hope that if I work hard enough and with little luck great things might happen to me too. 
+
+I think another good thing I learned is to accept my mediocrity. Don't get me wrong I still do believe that we should try to be better every single day, but what I mean is "you are not that special". I think this is the first step towards a better version of yourself, There's a sea of people more talented and committed than you and that's okay that's just life that's just life (yep it's a 'sound of the metal' reference). I also started to realize the consequences of my actions and taking responsibility for them, You see when I first started universities I thought I'll never need to study hard and that was something I  left in  high school and I couldn't have been more wrong. In my first semester I failed two courses namely "Calculus 1" and "Basics of Mathematics" this was a shock for me but it was deserved and also needed. I thought that I'll repeat that year because these were the easiest courses according to senior students (and common sense ), but I changed my attitude and made a promise to myself that this won't happen and it didn't, but I learned things the hard way. In the end the way I look back at it is if I somehow managed to pass first year with that attitude and mentality I would've repeated the following -much harder- year(s). 
+Third thing is that  its courses are not as outdated as most of students think. What I mean is for the core courses most of the concepts taught are standard and the same concepts is being and will taught for years even in the best universities let's just say that they are taught very poorly (I'll elaborate on this in the following section). computer science courses are particularly a good example of this. 
+Wish I could add more good things about you school of math, but I think that's all I have in your defense right now (maybe in a future version of this post I'll be able to come up with more).
+
+### Now to my favorite part the negative things:
+I think one of the most annoying things I had to deal with was that almost all of the professors in all of the courses didn't care to provide any sense of intuitive understanding of the concepts they taught before diving into the mathematical formulas in other words they confused definition with intuition.
+In my opinion the process should be as follows the intuition -> the real world applications of it -> the math behind it.
+
+I've met graduates who couldn't even answer a question like :why we need a standard deviation when have a variance? don't they both measure the same thing? or even simpler what's integral actually means? and why is it the opposite of differentiation.
+I'm thinking about making a whole series of posts about concepts that I think are  more interesting than I thought  and should've been taught better but I think Grant sanderson is doing better than I'll ever be able to in this regard. If you interested in math I highly recommend you subscribe to his YouTube channel "3Blue1Brown".
+
+Second thing is the lack of practical and hands on experience. If I said that most of  students reach their final years without a single technical skill, I won't be  wrong. Most of the assignments and small projects get copied from the internet or previous years projects. The sad thing is that they (the students) actually get used to this, so in their final year project or even worse when they start to work in a real job they struggle a lot especially in the implementation part of it. All of this is a result of the professors making passing the exams more important than actually gaining knowledge and understanding the ideas behind these courses. I myself got A's in some courses that I honestly didn't believe I would pass them even, but that all because of the broken academic system. 
+
+The third thing actually has more to do with the the students themselves which is the lack of active community that helps provide what's missing of the whole learning process compared to other faculties. To be fair there were several attempts to establish such communities like "Briding the gap" and  "SSE" but all of them suffered from the same problem: they were all based on the personal effort of few certain individuals which meant whenever these individuals were unavailable for whatever reasons the whole thing stops in its tracks. A more recent but promising one is "FMS students association" which is still to early to be judged but I believe that it has the  potentials to achieve higher level than its predecessors. 
+
+I feel like I've side tracked a little bit of my point in this post, but it's hard to write down a summary of 7 years in one post anyway. 
+
+Link to : [Advice to undergraduates](https://www.youtube.com/watch?v=E0J2LObdT-g).
+link to: [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
