@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resons That your progress is not as you want"
+title: "Reasons That your progress is not as you want"
 subtitle: ""
 date: 2021-08-1 20:45:13 -0400
 background: '/img/posts/header.jpg'
