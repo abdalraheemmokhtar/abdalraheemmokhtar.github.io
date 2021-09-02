@@ -1,0 +1,30 @@
+I"�<h3 id="my-journey-with-r">My Journey With R</h3>
+<p>When I first started to learn about machine learning and data science it didn’t make any sense for me to learn any other language than python 
+It’s easy to learn and code in,
+Requires minimum installations of other programs so you can get started quickly, has a library for almost every thing I needed,  and I already had some experience in it from my web development days (back when I was using Django framework) so learning something like R seemed redundant and  unnecessary so I never really cared about it.</p>
+
+<p>I  didn’t think about R again until my fourth year in college when there was a course on applied statistics which used to be taught in stata and other statistical packages, but lucky for us I think we were the first or second batch to be taught R and I recall that there was some conflicts between the students on which language should be used in the course Python or R, and even thought - as I recall- the majority voted for python we were still taught R .</p>
+
+<p>I  won’t lie at first R didn’t seem to offer much more or any thing new because we were studying the basics of the language (variables definitions,  for loops , functions, etc…) and  I was studying it for an exam only (it was the easiest A+ ever), but as always I wish I was told how useful it’s going to be and how important was it to dive deeper.</p>
+
+<p>I never opened Rstudio for months after that until the next semester when I had some code assignments in R for time series analysis and survival time analysis courses when I looked through the time series textbook  I was amazed by the beautiful plots and even more surprised by how little R code they used to generate this beautiful plots and so I found out about ggplot package which is a R package for plotting based on the concepts of “grammar of graphics” (a layered approach to plotting and visualization) which then lead me to discover the tidyverse packages and Shiny web apps and it was so awesome I wanted to re-learn everything I learned before in Python again in R.
+One of the best things I found was the #TidyTuesday challenge on Twitter which is a weekly challenge were people form all over the R community try their data visualization and data analysis techniques on one dataset .
+You can find a very insightful submissions and some people sometimes share their code and steps it’s really very helpful community. Every week I want to participate in #TidyTuesday but I always forget or just get lazy and procrastinate.</p>
+
+<p>Being exposed to all of this at the same time felt so overwhelming I literally didn’t know were to start, but learning from my previous mistakes I wanted to learn with minimal resources and because R is so amazing there’s a lot of data to play with and experiment on that comes with R and additonal datasets once you install tidyverse package.</p>
+
+<h3 id="what-i-like-about-tidyverse">What i like about tidyverse</h3>
+<p>Tidyverse according to thier offical website is “The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.” and this meant that it’s so intuitive to use the functions names and the overall work flow becomes much easier, but the real game changer is the pipe operator <em>&gt;</em> (a fancier and more recent version is |&gt; it’s not fully adoptedyet) this enables you to chain functions together so the output of one function is the input of the other. This meant you can easily implement a pipeline that reads the data , cleans it (remove null values, impute missing value, drop unimportant columns, etc), then does some filtering and grouping and Finally plotting a beautiful graph, and all of this in one line. Tidyverse made me understand why so many programmers love functional programming paradigm: much cleaner code easier to implement, test and debug. I’m a lazy person I would like to get as many things done with as few steps as possible tidyverse gives me just that.</p>
+
+<p>Another thing is the whole  community is so helpful (I already said that but it’s worth repeating) you can find very creative solutions to most of your errors and problems and there’s always new updates and new helpful packages.</p>
+
+<h3 id="final-note">Final Note</h3>
+<p>I don’t want this post to be understood as a comparison between R and Python as I said before I hate comparing technologies 
+If you love Python and you feel like everything I said is already available for you in Python in a more convenient way that’s completely fine, but I still think it’s useful to approach things from different perspective, personally I was missing out on a lot of cool things in R. It can actually be beneficial to your Python (or any other language) skills, because similar to learning natural languages learning new one can help you understand the other better. I’ve learned a lot of interesting facts about English after studying Spanish for a while.</p>
+
+<p>This  post wasn’t actually meant to be for this week, I was working on something different but it wasn’t ready yet and I didn’t want to lose the momentum. So please excuse me if this seems rushed or short I promise to write more about tidyverse and the most important R packages.</p>
+
+<p>If you interested in learning more I’ll leave this link to this great post <a href="https://www.tidyverse.org/blog/2021/08/teach-tidyverse-2021/">Teaching the tidyverse in 2021</a>.</p>
+
+<p>See you next week!</p>
+:ET
