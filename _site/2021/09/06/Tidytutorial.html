@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    TidyTutorial - Raheem&#39;s Blog
+    
+  </title>
+
+  <meta name="description" content="Simplest Tutorial Ever!!">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://abdalraheemmokhtar.github.io/2021/09/06/Tidytutorial.html">
+  <link rel="alternate" type="application/rss+xml" title="Raheem&#39;s Blog" href="/feed.xml">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Raheem&#39;s Blog</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>TidyTutorial</h1>
+            
+            <h2 class="subheading">Very Gentle Introduction To Tidyverse</h2>
+            
+            <span class="meta">Posted by
+              <a href="#">Abdalraheem</a>
+              on September 06, 2021 &middot; <span class="reading-time" title="Estimated read time">
+  
+   14 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <h1 id="simplest-tutorial-ever">Simplest Tutorial Ever!!</h1>
+
+<p>As I promised you to talk more about tidyverse and other R packages, this Tutorial is
+only a begging so don’t judge harshly I’m new at this. Initially I did not want to make tutorials on this blog because I believed that the internet is full of them, but one more won’t do no harm right ?</p>
+
+<p>let’s get started, first we need to load the tidyverse library so we can
+have access to all the great functions, if you don’t have the tidyverse
+library yet you should install it first by running:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># install.packages(tidyverse)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>then now we need to load (attach) the package so we can use it</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>like I said before one of the great things in R is that it has many
+built in datasets we can choose one to play around with, I’ll use mtcars because it’s one of the most popular datasets with very clear variables</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">?</span><span class="n">mtcars</span><span class="w">
+</span></code></pre></div></div>
+
+<p>when you run this line you will get informations about The mtcars dataset
+ (like where it came from, what each variable means, etc…). Now we will
+turn it into tibble which is according to tidyverse website : “A tibble, or tbl_df, is a modern reimagining of the data.frame, keeping what time has proven to be effective, and throwing out what is not. Tibbles are data.frames that are lazy and surly: they do less (i.e. they don’t change variable names or types, and don’t do partial matching) and complain more (e.g. when a variable does not exist). This forces you to confront problems earlier, typically leading to cleaner, more expressive code.”  this is optinal however
+this Tutorial is so simple this stuff it wont matter but it’s just a habit for me.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">as_tibble</span><span class="p">(</span><span class="n">mtcars</span><span class="p">)</span><span class="w">
+</span><span class="n">data</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## # A tibble: 32 x 11
+##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
+##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+##  1  21       6  160    110  3.9   2.62  16.5     0     1     4     4
+##  2  21       6  160    110  3.9   2.88  17.0     0     1     4     4
+##  3  22.8     4  108     93  3.85  2.32  18.6     1     1     4     1
+##  4  21.4     6  258    110  3.08  3.22  19.4     1     0     3     1
+##  5  18.7     8  360    175  3.15  3.44  17.0     0     0     3     2
+##  6  18.1     6  225    105  2.76  3.46  20.2     1     0     3     1
+##  7  14.3     8  360    245  3.21  3.57  15.8     0     0     3     4
+##  8  24.4     4  147.    62  3.69  3.19  20       1     0     4     2
+##  9  22.8     4  141.    95  3.92  3.15  22.9     1     0     4     2
+## 10  19.2     6  168.   123  3.92  3.44  18.3     1     0     4     4
+## # ... with 22 more rows
+</code></pre></div></div>
+
+<p>We can see that the data has 32 observations and 11 columns, now let’s make use of tidyverse</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">select</span><span class="p">(</span><span class="n">mpg</span><span class="p">,</span><span class="w"> </span><span class="n">disp</span><span class="p">,</span><span class="w"> </span><span class="n">wt</span><span class="p">,</span><span class="w"> </span><span class="n">am</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## # A tibble: 32 x 4
+##      mpg  disp    wt    am
+##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+##  1  21    160   2.62     1
+##  2  21    160   2.88     1
+##  3  22.8  108   2.32     1
+##  4  21.4  258   3.22     0
+##  5  18.7  360   3.44     0
+##  6  18.1  225   3.46     0
+##  7  14.3  360   3.57     0
+##  8  24.4  147.  3.19     0
+##  9  22.8  141.  3.15     0
+## 10  19.2  168.  3.44     0
+## # ... with 22 more rows
+</code></pre></div></div>
+
+<p>The select() function works similar to the SQL statement SELECT, as you
+can see it’s very easy to choose certin columns but this is not the true
+power of tidyverse the “pipe” %&gt;% is very helpful because now we can chain
+commands together, we can select some columns and then select individual
+cases given a certain condition like for example “show the displacement
+and weight and miles per gallon for all the manual (am == 1) cars in the
+dataset”</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">select</span><span class="p">(</span><span class="n">mpg</span><span class="p">,</span><span class="w"> </span><span class="n">disp</span><span class="p">,</span><span class="w"> </span><span class="n">wt</span><span class="p">,</span><span class="w"> </span><span class="n">am</span><span class="p">)</span><span class="w">  </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">filter</span><span class="p">(</span><span class="n">am</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## # A tibble: 13 x 4
+##      mpg  disp    wt    am
+##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+##  1  21   160    2.62     1
+##  2  21   160    2.88     1
+##  3  22.8 108    2.32     1
+##  4  32.4  78.7  2.2      1
+##  5  30.4  75.7  1.62     1
+##  6  33.9  71.1  1.84     1
+##  7  27.3  79    1.94     1
+##  8  26   120.   2.14     1
+##  9  30.4  95.1  1.51     1
+## 10  15.8 351    3.17     1
+## 11  19.7 145    2.77     1
+## 12  15   301    3.57     1
+## 13  21.4 121    2.78     1
+</code></pre></div></div>
+
+<p>we can add even more conditions and more functions let assume for the
+sake of example that there’s something called weight displacement ratio
+which is obtained by dividing the displacement of a car by its weight in
+1000 of pounds and we want to do this for the manual cars that has high
+miles per gallon (let’s assume that this means &gt; 25) we can do all of
+this just by running :</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">mutate</span><span class="p">(</span><span class="n">Weight_displacemet_ratio</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">disp</span><span class="o">/</span><span class="n">wt</span><span class="o">*</span><span class="m">1000</span><span class="p">)</span><span class="w"> 
+</span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">select</span><span class="p">(</span><span class="n">mpg</span><span class="p">,</span><span class="w"> </span><span class="n">disp</span><span class="p">,</span><span class="w"> </span><span class="n">wt</span><span class="p">,</span><span class="n">Weight_displacemet_ratio</span><span class="p">,</span><span class="w"> </span><span class="n">am</span><span class="p">)</span><span class="w">
+</span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">filter</span><span class="p">(</span><span class="n">mpg</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">25</span><span class="p">,</span><span class="w"> </span><span class="n">am</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## # A tibble: 6 x 5
+##     mpg  disp    wt Weight_displacemet_ratio    am
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;                    &lt;dbl&gt; &lt;dbl&gt;
+## 1  32.4  78.7  2.2                    35773.     1
+## 2  30.4  75.7  1.62                   46873.     1
+## 3  33.9  71.1  1.84                   38747.     1
+## 4  27.3  79    1.94                   40827.     1
+## 5  26   120.   2.14                   56215.     1
+## 6  30.4  95.1  1.51                   62855.     1
+</code></pre></div></div>
+
+<p>An important thing to remember is that the original data is still as it
+is its not modified so if you check that</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## # A tibble: 32 x 11
+##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
+##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+##  1  21       6  160    110  3.9   2.62  16.5     0     1     4     4
+##  2  21       6  160    110  3.9   2.88  17.0     0     1     4     4
+##  3  22.8     4  108     93  3.85  2.32  18.6     1     1     4     1
+##  4  21.4     6  258    110  3.08  3.22  19.4     1     0     3     1
+##  5  18.7     8  360    175  3.15  3.44  17.0     0     0     3     2
+##  6  18.1     6  225    105  2.76  3.46  20.2     1     0     3     1
+##  7  14.3     8  360    245  3.21  3.57  15.8     0     0     3     4
+##  8  24.4     4  147.    62  3.69  3.19  20       1     0     4     2
+##  9  22.8     4  141.    95  3.92  3.15  22.9     1     0     4     2
+## 10  19.2     6  168.   123  3.92  3.44  18.3     1     0     4     4
+## # ... with 22 more rows
+</code></pre></div></div>
+
+<p>this is very helpful because you don’t want to create new instances of
+your dataframe to apply functions to it especially in the first stages
+of analysis.</p>
+
+<p>Okay lets do something fun, hmm lets do a very simple
+analysis by plotting very simple boxplot to see if there is difference
+in mpg in the groups of cars that have a different number of cylinders</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">mutate</span><span class="p">(</span><span class="n">Cyl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">as.factor</span><span class="p">(</span><span class="n">cyl</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">box_plot</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Cyl</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mpg</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_boxplot</span><span class="p">()</span><span class="w">
+</span><span class="n">box_plot</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="\posts\TidyTut\box1.png" alt="boxplot" /><!-- --></p>
+
+<p>Easy enough, but what an ugly graph lets make things more interesting</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">box_plot</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Cyl</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mpg</span><span class="p">,</span><span class="w"> </span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Cyl</span><span class="p">))</span><span class="w">
+ </span><span class="o">+</span><span class="w"> </span><span class="n">geom_boxplot</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">scale_fill_brewer</span><span class="p">(</span><span class="n">palette</span><span class="o">=</span><span class="s2">"Set3"</span><span class="p">)</span><span class="w"> 
+ </span><span class="o">+</span><span class="w"> </span><span class="n">theme_classic</span><span class="p">()</span><span class="w">
+ </span><span class="o">+</span><span class="n">labs</span><span class="p">(</span><span class="w">
+    </span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Fuel Consumtion Categorized By The Number Of Cylinders"</span><span class="p">,</span><span class="w">
+    </span><span class="n">subtitle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"(1973-74)"</span><span class="p">,</span><span class="w">
+    </span><span class="n">caption</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Data from the 1974 Motor Trend US magazine."</span><span class="p">,</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Figure 1"</span><span class="p">,</span><span class="w">
+    </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Number of Cylinders"</span><span class="p">,</span><span class="w">
+    </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Fuel economy (mpg)"</span><span class="p">,</span><span class="w">
+    </span><span class="n">colour</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Cylinders"</span><span class="p">)</span><span class="w">
+</span><span class="n">box_plot</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="\posts\TidyTut\box2.png" alt="boxplot" /><!-- --></p>
+
+<p>It seems that cars with fewer number of cylinders have more miles per gallon which means they are more efficient than cars with higher number of cylinders.</p>
+
+<p>Now let see if there is a relationship between the weight of a car and
+its gas consumtion</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sp</span><span class="o">&lt;-</span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">wt</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">mpg</span><span class="p">,</span><span class="w"> </span><span class="n">color</span><span class="o">=</span><span class="n">Cyl</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_point</span><span class="p">()</span><span class="w"> 
+</span><span class="o">+</span><span class="w"> </span><span class="n">scale_color_manual</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"#997777"</span><span class="p">,</span><span class="w"> </span><span class="s2">"#E69F00"</span><span class="p">,</span><span class="w"> </span><span class="s2">"#56B4E9"</span><span class="p">))</span><span class="w">
+</span><span class="o">+</span><span class="w"> </span><span class="n">theme_minimal</span><span class="p">()</span><span class="w">
+</span><span class="o">+</span><span class="n">labs</span><span class="p">(</span><span class="w">
+    </span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Fuel economy declines as weight increases"</span><span class="p">,</span><span class="w">
+    </span><span class="n">subtitle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"(1973-74)"</span><span class="p">,</span><span class="w">
+    </span><span class="n">caption</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Data from the 1974 Motor Trend US magazine."</span><span class="p">,</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Figure 2"</span><span class="p">,</span><span class="w">
+    </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Weight (1000 lbs)"</span><span class="p">,</span><span class="w">
+    </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Fuel economy (mpg)"</span><span class="p">,</span><span class="w">
+    </span><span class="n">colour</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Gears"</span><span class="p">)</span><span class="w">
+  </span><span class="n">sp</span><span class="w"> 
+</span></code></pre></div></div>
+
+<p><img src="\posts\TidyTut\sp1.png" alt="Scatterplot" /><!-- --> 
+Looks like heavier cars tends to consume more gallons than lighter ones.  we’ve gain a good amount of overall informations with few steps.</p>
+
+<p>See? that was very easy don’t
+worry if you don’t understand some of ggplot commands and options I
+won’t explain it here today I think it deserve its own tutorial(s). The
+whole point of this tutorial was to whet your appetite to go try this for
+yourself, in future Tuts we will go through more complicated stuff with
+more realistic data, for now I think this is enough for a first tutorial I’m just experimenting.</p>
+
+<p>Hasta luego !</p>
+
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/2021/09/01/tidyverse-intro.html" data-toggle="tooltip" data-placement="top" title="Tidyverse For A Messy Mind">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:abdalraheem.mokhtar@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Raheem939">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Abdalraheem 2021</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXXXXXX-X');
+</script>
+
+
+
+</body>
+
+</html>
