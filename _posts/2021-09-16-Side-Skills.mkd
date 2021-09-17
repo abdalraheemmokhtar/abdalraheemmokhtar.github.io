@@ -9,7 +9,7 @@ A lot of time we tend to underrate some factors that can actually have huge effe
 ### Touch typing 
 I think everyone who's doing some kind of work that's evolves a Keyboard should know how to type fast. There's a lot of free websites that teach you how to  master touch typing, I'll give links and descriptions to them below. typing fast is a very satisfying skill to have  and you'll feel your progress while doing it which is  great if you impatient or the type of person that loses interest in things quickly when you don't see fast or direct  results, even though I still type at a pathetic rate of (45-50 Word Per Minute according to 10fastfingers ) and it's even slower when I write code (because of the  parentheses and stuff) still I've came a long way from using my index fingers to type almost everything and I'm still improving. I'm hoping that I'll be able to reach at least 80 wpm by the end of this year
 ### Speed Reading 
-I think compared to typing reading is less obvious skill to improve no one thinks that they actually need to improve their reading speed, but just like typing it's not only about speed but rather the techniques that allow for faster and more efficient output from reading. I learned this the hard way when I was doing literature review for my graduation project and I had to skim through a lot of papers, books and articles I literally had to read pages diagonally because I can't read everything, I knew that this has to Improve and I have to read faster without sacrifice my comprehension.
+I think compared to typing reading is less obvious skill to improve no one thinks that they actually need to improve their reading speed, but just like typing it's not only about speed but rather the techniques that allow for faster and more efficient output from reading. I learned this the hard way when I was doing literature review for my graduation project and I had to skim through a lot of papers, books and articles I literally had to read pages diagonally because I can't read everything, I knew that this had to Improve and I have to read faster without sacrifice my comprehension.
 Also similar to touch typing there's a lot of  websites that help you learn techniques and practice them to improve your reading skills 
 When you combine this two skills you'll find yourself saving a good amount of time that you didn't even knew you were wasting. average person reads from 200 to 300 words per minute but you can reach much higher rates(x2 or x3 !!)  with practice.
 
@@ -40,7 +40,7 @@ This is not a skill of course but it is worth mentioning here. I'd like to encou
 
 ### Resources 
 #### Typing
-[typing.com](https://typing.com) perfect for begginers if you don't know where to start
+[typing.com](https://typing.com) perfect for beginners if you don't know where to start
 
 [monkeytype](https://monkeytype.com) my personal favorite for practicing has everything you once you mastered the basics
 
