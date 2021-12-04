@@ -1,0 +1,29 @@
+I"+<p>Note:
+This is actually an old post that I wrote before deleting everything and I didn’t publish it. 
+I was setting frustrated going through 52  open tabs on my browser (yep I’m that horrible ) looking for help for my graduation project “maybe you bit up more than you can chew huh” I thought to myself but in that moment of despair it came to me, as I was going through the resources tutorials, lectures, and code notebooks I’ve realized how much I’m fascinated by the idea of computer vision. Computer vision -as the name implies- is a computer science discipline that deals with….</p>
+
+<p>People think it’s subfield of A.I but it’s not CV had been around for years and many methods were developed solve its problems without A.I, it just happens that since the introduction of Deep learning and CNN “convolutional neural networks” they’ve been outperforming all the other methods.</p>
+
+<p>The idea of computers being able to identify,classify and segment objects form images or videos which fundamentally makes them “see” just like us is actually both scary and amazing. We are yet to achieve that, Tesla “which is most powerful example of the abilities of computer vision “ is yet to deliver a full automated self-drive cars. Self-drive cars are cool but they are not the only application to CV, diseases detection “as in my graduation project”, ocr, disaster early warning systems are some of highlights of this field.</p>
+
+<p>So what?
+Okay so far you probably thinking that’s cool, but what’s your plan?. Are this application implementable here in Sudan?. Is this a reasonable career choice ?. To be honest I haven’t made a detailed plan yet but I’m working on it here’s the big ideas</p>
+
+<p>● get a mentor: mentors are so important I wish I knew this earlier they can help you save so much time and effort and learn from their experience. About a year ago I was a part of a machine learning mentorship program and I had an exceptional mentor who had incredible experience in CV “worked at Nvidia,Adobe and currently doing his PhD at max blanc institute in Germany” but unfortunately we had to stop the mentorship program  about two weeks in. I haven’t made contact with him since, but I’m hopeful he will remember me “also I have a plan B”.</p>
+
+<p>● literature review 
+ If I want to be great at CV there’s a lot of research papers that I should go through. I’ll have to study hard daily just to keep up. I’ll start with the basics from yan lecun first introducing cnn and every important cnn architecture and schmidhuber’s “attention is all you need !” ( incase it’s not clear I really love both the idea and the name of that paper)</p>
+
+<p>● practice makes perfect 
+Kaggle is all you can ask for from beginner to intermediate  the amount of knowledge you can get from is absolutely ridiculous and with their free GPUs and TPUs you can actually work with very complex and interesting data without worrying about hardware/software issues</p>
+
+<p>● let the people see !
+One of the most important steps. talking is easy show your results. I’m learn how to deploy models and embed them on application on different platforms</p>
+
+<p>The problem in context of Sudan 
+Is that there’s a big resistance to technology and rightfully so. If you ever used bankak which is a digital banking app for Sudan largest bank with most clients but is buggy lagy and lacking the essence of digital banking which is spotentaus 
+That’s for a very simple and common use case so you could imagine the reaction to cv application 
+It’s not the all bankak fault though the overall infrastructure of telecommunications in this country is questionable 
+But still it’s not completely hopeless (let’s hope I’m not wrong) 
+How can we gain Sudanese people trust in technology that’s an idea for another post</p>
+:ET
