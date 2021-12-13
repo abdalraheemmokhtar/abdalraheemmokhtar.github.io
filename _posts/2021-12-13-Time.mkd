@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Time"
+subtitle: "On Time management and productivity"
+date: 2021-12-13 00:45:13 -0400
+background: ""
+---
+
+Time is without any doubt our most valuable asset in this life. No matter what else you have it's nothing if you don't have time to enjoy it.
+
+Time is a weird thing too ! I mean people just decided what an hour is and what a day is and we sort of justed agreed to it.
+For example there's a lot of calendars on earth. Here's a random fact(that I find very interesting ) about the names of the months in the most used calendar [Gregorian calendar](https://www.almanac.com/content/how-did-months-get-their-names).
+
+---
+
+No matter how you think of it or calculate it, there's some facts about it: it's limited, finite, and most certainly there is no enough of it. (Given the current technology at least maybe that can change in the future).
+
+Which is kind of interesting (time for some philosophy): would you like immortality? I mean obviously yes, but when you think about it for a while if we are immortals then there will be no urgency to anything no eagerness, if I don't meet you today I'll meet you next month or maybe in the next 700 years, if I don't do it now I'll just do it later or next year or next century.
+Nothing will mean anything!, it will be literally torture!.
+
+I will accept immortality under one condition maybe, if I'm not aware of it. I want to learn everything I want to try everything the only way to do that I think is to be immortal without any awareness of it. but hey enough of the philosophy, you know what they say about philosophers? they are just people who discovered weed way too old.
+
+Studying in a university as unstable as university of Khartoum I have experienced how having plenty of free time can be counterproductive, whenever it's closed I have this urge to learn new skills or improve the ones I have, But soon as I realize that I have more time and no deadlines,  every today  =becomes tomorrow and every tomorrow becomes next week until couple months down the road I wish I started few months earlier. Then you start self loathing and being depressed about it leading you to waste even more time.
+
+I (similar to a lot of people) got one thing about productivity wrong. I thought I have to be in my best physical and mental state to be productive, but the truth is -at least for me- is that productivity what's really gives me good feelings it’s hard to get started when you are not motivated but once I actually set down and start working on something I end up being much happier and satisfied at the end.
+
+The world is becoming hard place to be  productive, with social media reducing our attention span to less than that of a golden fish, so stimulating that it’s actually boring, drawing your attention to things you don’t actually care about stealing the most valuable hours of your day.
+I hate social media so much I hope one day I’ll be able to live without it, that seems impossible at this point which is kind of sad so maybe I’ll just try to focus on the positive sides of it.
+
+Speaking of social media and attention I highly recommend that you read a book  called deep work by  This book showed me a lot of important things about the topic of this post I wont go over any details here just read it.
+
+---
+
+### Attack the day
+
+Have you ever watched “dead poets society”? it’s a good movies, not one of my favorites but still, There’s a quote from this movies which is in Latin that says “carpie diem!” it translates to "seize the day!" It’s important to attack your day, start early and get to work think of it this way it’s like play **x  o** with the day If you made the first move you chances of winning are actually very high, it will be in your hands to decide if you want to win or lose.
+I have experienced this many times some days I wake up open my laptop and just pick some book or write some code or study for some times these days almost always feel longer than others Which is another thing I was wrong about, being productive (I just realized that I have not give any definition to productivity yet, let’s just say it’s how much each day contributes to your overall goals and duties in life. And this “much” is actually hard to measure it does not have to be just the number of hours) gives you more time to do other things.
+
+Let me explain: I’m always paranoid about not being productive but at the same time a quite lazy person who procrastinate a lot so the result is more time goes to self blame. On the other hand when I manage somehow to win the first round of the day I ended more motivated to do more things like hobbies and stuff without feeling like I have other things to do.
+
+---
+
+### Building a habit
+
+Constructing the perfect loop is nearly impossible in this country so maintaining a long time plan will almost certainly fail that’s why you should create backup plans all the time for all scenarios
+No electricity or no internet or any other reason can easily ruin your plans.
+I’m thinking of making some routine for my weeks from now on
+I don’t mean this will be what I’m doing the whole day, but you can think of it as the “theme” of the day I’m able to function with 6 hours of sleep everyday (and almost no social life lol ) so I still have a plenty of time to do other important things I hope to integrate this in my working life after graduation or at least a lighter variation of it
+
+*Monday blog* day I write the and publish a new post. I rarely write a whole post in one sitting or one day but I’ll try to stitch things together and search for good topics and things like that, I’m dedicating more time so I can deliver you better content.
+
+*TidyTuesday* is already a thing so that will be the day for data analysis visualization and similar stuff  
+
+*Wednesday web day* I hate the fact that I learn so much about web development and I never used that knowledge and skills so I’m planning on re-sharping them doing small scale side projects and maybe I’ll come up with the next billion dollar idea.
+
+*Theory Thursday* since I’m committed to computer vision I need to have solid theoretical  foundation on a lot of complicated topics so this day I go back old school pen and paper stuff and learn from the principles. Also important and interesting papers are read on this day.
+
+*Free-day Friday* it’s the day I get to be lazy I can do whatever I want. I have recently made commitment to one of my friends to monitor him in machine learning so maybe things like that get sorted here.
+
+Saturday is for non academic reading and general knowledge and language learning and practicing.(I bet you are disappointed that I didn't give it any name)
+
+Sunday backup day  in case I wasn’t able to fulfill this tasks. I wanted it to be at the beginning  of the week because I believe I’ll be more motivated at that time to finish any unresolved stuff.
+
+---
+
+I’m 2 weeks away from being 24 years old I can’t say this is how I imagined my life would be at this age, that is very sad actually, plus when start to lose your hair it’s like having a count down over your head everyday you slowly and literally fading away one hair at a time. 30s are nearer and they are scary and many agrees that 40s are the fastest decade of your life so maybe I don’t have as much time as I think (if I’m able to stay alive till that time). I know, I know this sounds very melodramatic but it’s depression season again and I think I get to make some drama.
+
+Focusing on other bright sides this year wasn’t actually very bad would’ve been near perfect if I had graduated but ***it is what it is***. My biggest achievements are probably: Starting this blog, finding a career path that I’m very interested in,  I think I improved my Spanish language skills, I’ve made a very cool new friend, but most importantly I think I no longer hate myself! and I’m starting to actually belief in my abilities. Let’s hope that I see the benefits of that soon.
