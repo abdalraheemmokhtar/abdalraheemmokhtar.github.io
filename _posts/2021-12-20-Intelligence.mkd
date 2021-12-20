@@ -9,17 +9,17 @@ background: ""
 intelligence is; looked at in another way, no
 one does."
 
-Artificial Intelligence is currently one of the fastest growing fields in the world, also most of the research in computer science is dedicated to it, almost half of all the research in computer science is now about A.I and related fields. But before we make it artificial we need to first define, understand, and measure it. This post is inspired by a paper I recently read made in 2019 by francois chollet, francois is one of the pioneer in the field and one of the people that I highly look up to and admire because of his amazing way of thinking.
+Artificial Intelligence is currently one of the fastest growing fields in the world, also most of the research in computer science is dedicated to it, almost half of all the research in computer science is now about A.I and related fields. But before we make it artificial we need to first define, understand, and measure it. This post is inspired by a paper I recently read, made in 2019 by francois chollet, francois is one of the pioneers in the field and one of the people that I highly look up to and admire because of his amazing way of thinking.
 
 ---
 
-The paper describes intelligence as skill-acquisition efficiency opposed to the common way that is used which is by comparing the results between the A.I performance and human performance in a specific task.
+The paper describes intelligence as "skill-acquisition efficiency" opposed to the common way that is used which is by comparing the results between the A.I performance and human performance in a specific task. To consider an agent intelligenet it must have the ability to acquire new skills and knowledge.
 
-The difference between human and A.I now days is that A.I can get good at some tasks sometimes even better than human (Alphazero for example is a chess playing A.I that Practically unbeatable! take a minute and think about this no human being will ever beat A.I in chess! similarly AlphaGo is another one for the game of Go ) but even then human still way more intelligent because they can *adapt* to any changes of the rules or the environment on the other hand A.I needs relatively long time and human involvement and supervision to adjust to the smallest changes.(consider changing the rules of chess the way the knight moves or the queen moves average chess player will beat Alphazero then)  to achieve real A.I this should not be the case A.I agents should be equipped to lean how to learn novel tasks that they never seen before!
+The difference between human and A.I now days is that A.I can get good at some tasks sometimes even better than human (Alphazero for example is a chess playing A.I that Practically unbeatable! take a minute and think about this!  no human being will ever beat A.I in chess! similarly AlphaGo is another one for the game of Go and many more were made for atari games and different games) but even then, human still way more intelligent because they can *adapt* to any changes of the rules or the environment. on the other hand A.I needs relatively long time and human involvement and supervision to adjust to the smallest changes.(consider changing the rules of chess the way the knight moves or the queen moves I will argue that an average chess player will beat Alphazero then)  to achieve real A.I this should not be the case A.I agents should be equipped to lean how to learn novel tasks that they never seen before!.
 
 ---
 
-mayraf (my best friend) is a very good chess player he is actually the best chess player I have ever known in my life, he is also better at chess than any of my friends at any of their things, but still mayraf was not born knowing chess nor we can say that god made him only to play chess, but we can safely assume that he is an intelligent person, because we implicitly know that he had to use his general intelligence to acquire this specific skill over his lifetime, which reflects his general ability to acquire many other possible skills in the same way.  The
+mayraf (my best friend) is a very good chess player he is actually the best chess player I have ever known in my life, he is also better at chess than any of my friends at any of their things(hobbies, games, etc...), but still mayraf was not born knowing chess nor we can say that god made him only to play chess, but we can safely assume that he is an intelligent person, because we implicitly know that he had to use his general intelligence to acquire this specific skill over his lifetime, which reflects his general ability to acquire many other possible skills in the same way.  The
 same assumption does not apply to a non-human system that does not arrive at competence
 the way humans do. We need A.I agents to be able to repurpose their abilities to learn new skills the same way mayraf can learn other games using the same abilities he used for learning chess.
 
@@ -31,6 +31,8 @@ better, they would inevitably fail in others,
 which would reveal they were acting not
 through understanding, but only from the
 disposition of their organs." - Rene Descartes
+
+---
 
 ### We want A.I to generalize
 
@@ -64,7 +66,7 @@ tasks and domains”. Biological forms of intelligence (humans and possibly othe
 ### Do we care if a plane eats fish ?
 
 So how can we make human level generalization? key step is to deeper understand how our mind work, how it can turn experience into behavior, knowledge and skills.
-I've came across this blog post by george hotz I really like this idea (not that of a fish eating planes of course!). He was say that to achieve this performance we need to look differently at how we preserve  our brains
+I've came across this blog post by george hotz I really like this idea (not that of a fish eating planes of course!). He was saying that to achieve this performance we need to look differently at how we preserve our brains
 "There’s two papers I love that illustrate what understanding a system really means. Can a biologist fix a radio? (2002) and Could a Neuroscientist Understand a Microprocessor? (2017). To me, they illustrate that the current tools of biology and sub-fields are unequipped to handle understanding life. We will know we understand life once we can build life. We will know we understand a brain once we can build a brain.
 
 I think it’s going to end up looking like birds and planes. Planes fly in a much more “rigid” way, and they are much simpler than birds. But for our purposes, planes are more useful, and nobody would deny that they are “flying machines”
