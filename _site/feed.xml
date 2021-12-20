@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://abdalraheemmokhtar.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://abdalraheemmokhtar.github.io/" rel="alternate" type="text/html" /><updated>2021-12-13T18:56:54+02:00</updated><id>https://abdalraheemmokhtar.github.io/feed.xml</id><title type="html">Raheem’s Blog</title><subtitle>My Opiniones on things and stuff</subtitle><author><name>Abdalraheem</name></author><entry><title type="html">Time</title><link href="https://abdalraheemmokhtar.github.io/2021/12/13/Time.html" rel="alternate" type="text/html" title="Time" /><published>2021-12-13T06:45:13+02:00</published><updated>2021-12-13T06:45:13+02:00</updated><id>https://abdalraheemmokhtar.github.io/2021/12/13/Time</id><content type="html" xml:base="https://abdalraheemmokhtar.github.io/2021/12/13/Time.html">&lt;p&gt;Time is without any doubt our most valuable asset in this life. No matter what else you have it’s nothing if you don’t have time to enjoy it.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://abdalraheemmokhtar.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://abdalraheemmokhtar.github.io/" rel="alternate" type="text/html" /><updated>2021-12-20T21:17:13+02:00</updated><id>https://abdalraheemmokhtar.github.io/feed.xml</id><title type="html">Raheem’s Blog</title><subtitle>My Opiniones on things and stuff</subtitle><author><name>Abdalraheem</name></author><entry><title type="html">Intelligence</title><link href="https://abdalraheemmokhtar.github.io/2021/12/20/Intelligence.html" rel="alternate" type="text/html" title="Intelligence" /><published>2021-12-20T06:45:13+02:00</published><updated>2021-12-20T06:45:13+02:00</updated><id>https://abdalraheemmokhtar.github.io/2021/12/20/Intelligence</id><content type="html" xml:base="https://abdalraheemmokhtar.github.io/2021/12/20/Intelligence.html">&lt;p&gt;“Looked at in one way, everyone knows what
+intelligence is; looked at in another way, no
+one does.”&lt;/p&gt;
+
+&lt;p&gt;Artificial Intelligence is currently one of the fastest growing fields in the world, also most of the research in computer science is dedicated to it, almost half of all the research in computer science is now about A.I and related fields. But before we make it artificial we need to first define, understand, and measure it. This post is inspired by a paper I recently read made in 2019 by francois chollet, francois is one of the pioneer in the field and one of the people that I highly look up to and admire because of his amazing way of thinking.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The paper describes intelligence as skill-acquisition efficiency opposed to the common way that is used which is by comparing the results between the A.I performance and human performance in a specific task.&lt;/p&gt;
+
+&lt;p&gt;The difference between human and A.I now days is that A.I can get good at some tasks sometimes even better than human (Alphazero for example is a chess playing A.I that Practically unbeatable! take a minute and think about this no human being will ever beat A.I in chess! similarly AlphaGo is another one for the game of Go ) but even then human still way more intelligent because they can &lt;em&gt;adapt&lt;/em&gt; to any changes of the rules or the environment on the other hand A.I needs relatively long time and human involvement and supervision to adjust to the smallest changes.(consider changing the rules of chess the way the knight moves or the queen moves average chess player will beat Alphazero then)  to achieve real A.I this should not be the case A.I agents should be equipped to lean how to learn novel tasks that they never seen before!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;mayraf (my best friend) is a very good chess player he is actually the best chess player I have ever known in my life, he is also better at chess than any of my friends at any of their things, but still mayraf was not born knowing chess nor we can say that god made him only to play chess, but we can safely assume that he is an intelligent person, because we implicitly know that he had to use his general intelligence to acquire this specific skill over his lifetime, which reflects his general ability to acquire many other possible skills in the same way.  The
+same assumption does not apply to a non-human system that does not arrive at competence
+the way humans do. We need A.I agents to be able to repurpose their abilities to learn new skills the same way mayraf can learn other games using the same abilities he used for learning chess.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;“Even though such machines might do some
+things as well as we do them, or perhaps even
+better, they would inevitably fail in others,
+which would reveal they were acting not
+through understanding, but only from the
+disposition of their organs.” - Rene Descartes&lt;/p&gt;
+
+&lt;h3 id=&quot;we-want-ai-to-generalize&quot;&gt;We want A.I to generalize&lt;/h3&gt;
+
+&lt;p&gt;So we now have a goal to make A.I generalize, to  perform well even in novel situations, but even this needs more clarification we can divided generalization to two types
+system-centeric generalization which means situation that are new to the A.I agent, and developer-aware generalization which means to perform well even in situations that are new to the A.I’s developer.&lt;/p&gt;
+
+&lt;h4 id=&quot;we-can-also-qualitatively-define-degrees-of-generalization-to&quot;&gt;we can also qualitatively define degrees of generalization to&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Absence of generalization:&lt;/strong&gt;this is generalization in the sense of mathematical proofs we can not say a program generalize if it’s just producing a proven mathematical relationship Likewise, a sorting algorithm that is proven to be correct cannot be said to “generalize” to all lists of
+integers,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Local generalization, or “robustness”:&lt;/strong&gt; This is the ability of a system to handle new
+points from a known distribution for a single task or a well-scoped set of known tasks,
+given a sufficiently dense sampling of examples from the distribution (e.g. tolerance
+to anticipated perturbations within a fixed context). For instance, an image classifier
+that can distinguish previously unseen 150x150 RGB images containing cats from
+those containing dogs, after being trained on many such labeled images, can be said
+to perform local generalization.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Broad generalization, or “flexibility”:&lt;/strong&gt; This is the ability of a system to handle a
+broad category of tasks and environments without further human intervention. For instance, a L5 self-driving vehicle, or a domestic robot capable
+of passing Wozniak’s coffee cup test (entering a random kitchen and making a cup of
+coffee) could be said to display broad generalization.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Extreme generalization:&lt;/strong&gt; This describes open-ended systems with the ability to handle entirely new tasks that only share abstract commonalities with previously encountered situations, applicable to any task and domain within a wide scope. This could
+be characterized as “adaptation to unknown unknowns across an unknown range of
+tasks and domains”. Biological forms of intelligence (humans and possibly other intelligent species) are the only example of such a system at this time.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-we-care-if-a-plane-eats-fish-&quot;&gt;Do we care if a plane eats fish ?&lt;/h3&gt;
+
+&lt;p&gt;So how can we make human level generalization? key step is to deeper understand how our mind work, how it can turn experience into behavior, knowledge and skills.
+I’ve came across this blog post by george hotz I really like this idea (not that of a fish eating planes of course!). He was say that to achieve this performance we need to look differently at how we preserve  our brains
+“There’s two papers I love that illustrate what understanding a system really means. Can a biologist fix a radio? (2002) and Could a Neuroscientist Understand a Microprocessor? (2017). To me, they illustrate that the current tools of biology and sub-fields are unequipped to handle understanding life. We will know we understand life once we can build life. We will know we understand a brain once we can build a brain.&lt;/p&gt;
+
+&lt;p&gt;I think it’s going to end up looking like birds and planes. Planes fly in a much more “rigid” way, and they are much simpler than birds. But for our purposes, planes are more useful, and nobody would deny that they are “flying machines”&lt;/p&gt;
+
+&lt;p&gt;Nobody will deny that our artificial life are “thinking machines.” Nobody will care if the machine can “love” in the same way nobody cares if a plane eats fish. We will care if we’ve built something that can do everything useful that a human can do.”&lt;/p&gt;
+
+&lt;p&gt;One more post left in this year! I think this is actually the 16th post so far, I really did came a long way in these past 5 months all of this wouldn’t have been possible if it wasn’t for your support and encouragement so thanks again. I’m also considering sharing this blog with larger audience (hopefully soon) 
+Next post would be a year recap and what I’m looking forward to in 2022.&lt;/p&gt;</content><author><name>Abdalraheem</name></author><summary type="html">“Looked at in one way, everyone knows what intelligence is; looked at in another way, no one does.”</summary></entry><entry><title type="html">Time</title><link href="https://abdalraheemmokhtar.github.io/2021/12/13/Time.html" rel="alternate" type="text/html" title="Time" /><published>2021-12-13T06:45:13+02:00</published><updated>2021-12-13T06:45:13+02:00</updated><id>https://abdalraheemmokhtar.github.io/2021/12/13/Time</id><content type="html" xml:base="https://abdalraheemmokhtar.github.io/2021/12/13/Time.html">&lt;p&gt;Time is without any doubt our most valuable asset in this life. No matter what else you have it’s nothing if you don’t have time to enjoy it.&lt;/p&gt;
 
 &lt;p&gt;Time is a weird thing too ! I mean people just decided what an hour is and what a day is and we sort of justed agreed to it.
 For example there’s a lot of calendars on earth. Here’s a random fact(that I find very interesting ) about the names of the months in the most used calendar &lt;a href=&quot;https://www.almanac.com/content/how-did-months-get-their-names&quot;&gt;Gregorian calendar&lt;/a&gt;.&lt;/p&gt;
@@ -304,211 +369,4 @@ This made me think: if it wasn’t for that day maybe I would’ve never started
 &lt;p&gt;Since we’re talking about motivation A while ago I came across this quote “You won’t always be motivated so learn to be disciplined” I guess every one of us gets highly motivated from time to time maybe at the first of the new year, at your birthday, next week or when starting a new semester or job maybe you can even make some promises and plans, but all of this fades away too soon and you find yourself waiting for the next especial occasion to get started.
 consistency is a key we’ll eventually get good only at what we do regularly whether that’s a useful thing, harmful thing or total waste of  time. Yes you can actually get good at wasting time and procrastination I’ve been there before (still there maybe, but I’m getting worse hopefully) and it’s actually quite hard to get rid of this habits, but  sometimes I manage to get around my laziness it’s like surfing, most of the time I’m just waiting still doing nothing, but every now and then some waves (bursts of motivation) shows up and I have to decide quickly which one to ride before they disappear. This helps a little but it’s also very inefficient, motivation will only get you so far, you have to maintain a streak, whatever you’re planning to be good at you’ll have to do it daily (or at least very frequently and consistently) no matter what happens in your life.&lt;/p&gt;
 
-&lt;p&gt;So in the end what is the title of this post? is it about motivation, the importance of supportive friends in your life or is it about my laziness? I don’t know, I can’t come up with a title, maybe you can help me ?&lt;/p&gt;</content><author><name>Abdalraheem</name></author><summary type="html">Posts are piling up in my draft folder and I can’t seem to able to finish any of them. It’s been almost two months since I started this blog and I’ve been writing about very different topics and I don’t even know which topics I should be focusing on, but I realized that there’s agreement that my previous post (which was a tidyverse tutorial) is the least favorite one so far and that’s kind of predicted, most of people aren’t really interested in the technical parts or at least they’re more interested in my ideas and opinions which is a good thing (I guess).</summary></entry><entry><title type="html">TidyTutorial</title><link href="https://abdalraheemmokhtar.github.io/2021/09/06/Tidytutorial.html" rel="alternate" type="text/html" title="TidyTutorial" /><published>2021-09-06T14:45:13+02:00</published><updated>2021-09-06T14:45:13+02:00</updated><id>https://abdalraheemmokhtar.github.io/2021/09/06/Tidytutorial</id><content type="html" xml:base="https://abdalraheemmokhtar.github.io/2021/09/06/Tidytutorial.html">&lt;h1 id=&quot;simplest-tutorial-ever&quot;&gt;Simplest Tutorial Ever!!&lt;/h1&gt;
-
-&lt;p&gt;As I promised you to talk more about tidyverse and other R packages, this Tutorial is
-only a begging so don’t judge harshly I’m new at this. Initially I did not want to make tutorials on this blog because I believed that the internet is full of them, but one more won’t do no harm right ?&lt;/p&gt;
-
-&lt;p&gt;let’s get started, first we need to load the tidyverse library so we can
-have access to all the great functions, if you don’t have the tidyverse
-library yet you should install it first by running:&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# install.packages(tidyverse)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;then now we need to load (attach) the package so we can use it&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tidyverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;like I said before one of the great things in R is that it has many
-built in datasets we can choose one to play around with, I’ll use mtcars because it’s one of the most popular datasets with very clear variables&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mtcars&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;when you run this line you will get informations about The mtcars dataset
- (like where it came from, what each variable means, etc…). Now we will
-turn it into tibble which is according to tidyverse website : “A tibble, or tbl_df, is a modern reimagining of the data.frame, keeping what time has proven to be effective, and throwing out what is not. Tibbles are data.frames that are lazy and surly: they do less (i.e. they don’t change variable names or types, and don’t do partial matching) and complain more (e.g. when a variable does not exist). This forces you to confront problems earlier, typically leading to cleaner, more expressive code.”  this is optinal however
-this Tutorial is so simple this stuff it wont matter but it’s just a habit for me.&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as_tibble&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mtcars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## # A tibble: 32 x 11
-##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
-##    &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
-##  1  21       6  160    110  3.9   2.62  16.5     0     1     4     4
-##  2  21       6  160    110  3.9   2.88  17.0     0     1     4     4
-##  3  22.8     4  108     93  3.85  2.32  18.6     1     1     4     1
-##  4  21.4     6  258    110  3.08  3.22  19.4     1     0     3     1
-##  5  18.7     8  360    175  3.15  3.44  17.0     0     0     3     2
-##  6  18.1     6  225    105  2.76  3.46  20.2     1     0     3     1
-##  7  14.3     8  360    245  3.21  3.57  15.8     0     0     3     4
-##  8  24.4     4  147.    62  3.69  3.19  20       1     0     4     2
-##  9  22.8     4  141.    95  3.92  3.15  22.9     1     0     4     2
-## 10  19.2     6  168.   123  3.92  3.44  18.3     1     0     4     4
-## # ... with 22 more rows
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;We can see that the data has 32 observations and 11 columns, now let’s make use of tidyverse&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;am&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## # A tibble: 32 x 4
-##      mpg  disp    wt    am
-##    &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
-##  1  21    160   2.62     1
-##  2  21    160   2.88     1
-##  3  22.8  108   2.32     1
-##  4  21.4  258   3.22     0
-##  5  18.7  360   3.44     0
-##  6  18.1  225   3.46     0
-##  7  14.3  360   3.57     0
-##  8  24.4  147.  3.19     0
-##  9  22.8  141.  3.15     0
-## 10  19.2  168.  3.44     0
-## # ... with 22 more rows
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The select() function works similar to the SQL statement SELECT, as you
-can see it’s very easy to choose certin columns but this is not the true
-power of tidyverse the “pipe” %&amp;gt;% is very helpful because now we can chain
-commands together, we can select some columns and then select individual
-cases given a certain condition like for example “show the displacement
-and weight and miles per gallon for all the manual (am == 1) cars in the
-dataset”&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;am&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;am&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## # A tibble: 13 x 4
-##      mpg  disp    wt    am
-##    &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
-##  1  21   160    2.62     1
-##  2  21   160    2.88     1
-##  3  22.8 108    2.32     1
-##  4  32.4  78.7  2.2      1
-##  5  30.4  75.7  1.62     1
-##  6  33.9  71.1  1.84     1
-##  7  27.3  79    1.94     1
-##  8  26   120.   2.14     1
-##  9  30.4  95.1  1.51     1
-## 10  15.8 351    3.17     1
-## 11  19.7 145    2.77     1
-## 12  15   301    3.57     1
-## 13  21.4 121    2.78     1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;we can add even more conditions and more functions let assume for the
-sake of example that there’s something called weight displacement ratio
-which is obtained by dividing the displacement of a car by its weight in
-1000 of pounds and we want to do this for the manual cars that has high
-miles per gallon (let’s assume that this means &amp;gt; 25) we can do all of
-this just by running :&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Weight_displacemet_ratio&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Weight_displacemet_ratio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;am&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpg&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;am&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## # A tibble: 6 x 5
-##     mpg  disp    wt Weight_displacemet_ratio    am
-##   &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;                    &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
-## 1  32.4  78.7  2.2                    35773.     1
-## 2  30.4  75.7  1.62                   46873.     1
-## 3  33.9  71.1  1.84                   38747.     1
-## 4  27.3  79    1.94                   40827.     1
-## 5  26   120.   2.14                   56215.     1
-## 6  30.4  95.1  1.51                   62855.     1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;An important thing to remember is that the original data is still as it
-is its not modified so if you check that&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## # A tibble: 32 x 11
-##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
-##    &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
-##  1  21       6  160    110  3.9   2.62  16.5     0     1     4     4
-##  2  21       6  160    110  3.9   2.88  17.0     0     1     4     4
-##  3  22.8     4  108     93  3.85  2.32  18.6     1     1     4     1
-##  4  21.4     6  258    110  3.08  3.22  19.4     1     0     3     1
-##  5  18.7     8  360    175  3.15  3.44  17.0     0     0     3     2
-##  6  18.1     6  225    105  2.76  3.46  20.2     1     0     3     1
-##  7  14.3     8  360    245  3.21  3.57  15.8     0     0     3     4
-##  8  24.4     4  147.    62  3.69  3.19  20       1     0     4     2
-##  9  22.8     4  141.    95  3.92  3.15  22.9     1     0     4     2
-## 10  19.2     6  168.   123  3.92  3.44  18.3     1     0     4     4
-## # ... with 22 more rows
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;this is very helpful because you don’t want to create new instances of
-your dataframe to apply functions to it especially in the first stages
-of analysis.&lt;/p&gt;
-
-&lt;p&gt;Okay lets do something fun, hmm lets do a very simple
-analysis by plotting very simple boxplot to see if there is difference
-in mpg in the groups of cars that have a different number of cylinders&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Cyl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as.factor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cyl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;box_plot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Cyl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_boxplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;box_plot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;\posts\TidyTut\box1.png&quot; alt=&quot;boxplot&quot; /&gt;&lt;!-- --&gt;&lt;/p&gt;
-
-&lt;p&gt;Easy enough, but what an ugly graph lets make things more interesting&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;box_plot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Cyl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Cyl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
- &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_boxplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scale_fill_brewer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;palette&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Set3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
- &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theme_classic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
- &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Fuel Consumtion Categorized By The Number Of Cylinders&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;(1973-74)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Data from the 1974 Motor Trend US magazine.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Figure 1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Number of Cylinders&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Fuel economy (mpg)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Cylinders&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;box_plot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;\posts\TidyTut\box2.png&quot; alt=&quot;boxplot&quot; /&gt;&lt;!-- --&gt;&lt;/p&gt;
-
-&lt;p&gt;It seems that cars with fewer number of cylinders have more miles per gallon which means they are more efficient than cars with higher number of cylinders.&lt;/p&gt;
-
-&lt;p&gt;Now let see if there is a relationship between the weight of a car and
-its gas consumtion&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Cyl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scale_color_manual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;#997777&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;#E69F00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;#56B4E9&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theme_minimal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Fuel economy declines as weight increases&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;(1973-74)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Data from the 1974 Motor Trend US magazine.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Figure 2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Weight (1000 lbs)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Fuel economy (mpg)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Gears&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;\posts\TidyTut\sp1.png&quot; alt=&quot;Scatterplot&quot; /&gt;&lt;!-- --&gt; 
-Looks like heavier cars tends to consume more gallons than lighter ones.  we’ve gain a good amount of overall informations with few steps.&lt;/p&gt;
-
-&lt;p&gt;See? that was very easy don’t
-worry if you don’t understand some of ggplot commands and options I
-won’t explain it here today I think it deserve its own tutorial(s). The
-whole point of this tutorial was to whet your appetite to go try this for
-yourself, in future Tuts we will go through more complicated stuff with
-more realistic data, for now I think this is enough for a first tutorial I’m just experimenting.&lt;/p&gt;
-
-&lt;p&gt;Hasta luego !&lt;/p&gt;</content><author><name>Abdalraheem</name></author><summary type="html">Simplest Tutorial Ever!!</summary></entry></feed>
+&lt;p&gt;So in the end what is the title of this post? is it about motivation, the importance of supportive friends in your life or is it about my laziness? I don’t know, I can’t come up with a title, maybe you can help me ?&lt;/p&gt;</content><author><name>Abdalraheem</name></author><summary type="html">Posts are piling up in my draft folder and I can’t seem to able to finish any of them. It’s been almost two months since I started this blog and I’ve been writing about very different topics and I don’t even know which topics I should be focusing on, but I realized that there’s agreement that my previous post (which was a tidyverse tutorial) is the least favorite one so far and that’s kind of predicted, most of people aren’t really interested in the technical parts or at least they’re more interested in my ideas and opinions which is a good thing (I guess).</summary></entry></feed>
