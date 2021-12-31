@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Year Resolation"
+title: "New Year Resolution"
 subtitle: "Things to do in 2022"
 date: 2021-12-31 00:45:13 -0400
 background: ""
@@ -51,9 +51,9 @@ It's easier to do understand oneself if we have a record of our feelings and hig
 
 ### Things to improve
 
-- typing speed: this year I want to reach at least 80-100, but I'm about 65 wpm now so let's say 150 by the end of 2022? Also I want to learn Vim (text editor that totally frees you from using the mouse ) it has a steep learning curve but the payoff is huuuge.
+- typing speed: this year I wanted to reach at least 80-100, but I'm about 65 wpm now so let's say 150 by the end of 2022? Also I want to learn Vim (text editor that totally frees you from using the mouse ) it has a steep learning curve but the payoff is huuuge.
 
-- Professional networking: I want to form more professional relationships with similar minded individuals I need to work on my social anxizty and start sharing my thoughts with people I'll start with being more present in linkedin and going and participating in more events (I regeret not relizing this in my early collage years).
+- Professional networking: I want to form more professional relationships with similar minded individuals I need to work on my social anxiety and start sharing my thoughts with people I'll start with being more present in linkedin and going and participating in more events (I regeret not realizing this in my early collage years, or to be more honest beeing aware and choosing to neglect).
 
 - Spanish I've already mentioned this above.
 
