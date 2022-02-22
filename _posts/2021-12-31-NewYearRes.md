@@ -87,7 +87,7 @@ Don't just lie, face.
 
 Don’t just read, act. 
 
-Don’t just learn, teach. 
+Don’t just learn, teach. MJNFKLKFNBLKKLNFKLNBLNEMNWJPGIRJEFJO;eronno
 
 Don’t just think, write.
 
@@ -96,3 +96,7 @@ Don't just dream, fight, for everything.
 With everything going on in Sudan now days to even have  plans or dreams might be foolish or very optimistic , but as they say it’s can sometimes be brave to allow yourself hope and “Fortes fortuna adiuvat” ("Fortune favours the brave").
 
 Happy New Year people! and see you in 2022.
+
+
+
+you are stopid
