@@ -1,8 +1,12 @@
 ---
 layout: post
-title: "came back after a while "
-subtitle: "war and stuff"
+title: "Back on Track"
+subtitle: "Now what? "
 date: 2023-08-13 07:45:13 -0400
 background: 'https://images.unsplash.com/photo-1558877397-9cb93e41a9c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80'
 ---
-this is a test
+### Hello Friend
+Frist of all it really does feel good to be back writing these posts, it feels like the last time I did this was years ago, I even started to forget how write, build and maintain the github repo. It's been two years since I decided to start doing this and man what a great descion was it! throughout the time when I couldn't publish new posts I read most of my old posts and I really felt a lot of different emotions from laughing at how I was stressed about my graduation project to feeling sad remember some special moments and people who were crucial to my journey with this blog but now we don't even talk.
+
+### Again Time Flies
+Since 2018 and it's almost like time has been going faster than ever, I cloud swear that old 202X seems like one long year, so much happened
