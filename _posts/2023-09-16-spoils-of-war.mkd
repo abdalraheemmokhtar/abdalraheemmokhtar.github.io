@@ -1,6 +1,7 @@
+---
 layout: post
 title: "Spoils Of War"
-subtitle: "Now what? "
+subtitle: "Trying to see the positives of a great tragedy  "
 date: 2023-09-16 07:45:13 -0400
 background: 'https://images.unsplash.com/photo-1558877397-9cb93e41a9c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80'
 ---
