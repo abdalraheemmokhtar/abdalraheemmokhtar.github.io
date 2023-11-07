@@ -1,0 +1,9 @@
+---
+layout: post
+title: "November"
+subtitle: "Cool Kid's December"
+date: 2023-11-01 00:45:13 -0400
+background: '/img/posts/war.jpg'
+---
+
+I think November is one of the least remarkable months of the year, Personally I do not remember a siginficant event in my life that happen in it. 
