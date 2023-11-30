@@ -3,7 +3,7 @@ layout: post
 title: "Why years of Experience =/= Competence"
 subtitle: "Rethinking Hiring Practices: Competence Over Experience"
 date: 2023-11-06 00:45:13 -0400
-background: '/img/posts/war.jpg'
+background: 'https://images.unsplash.com/photo-1695667937079-b59c63660cfc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 ---
 
 In the dynamic landscape of today's job market, the traditional emphasis on years of experience as the primary indicator of competence is facing increasing scrutiny. While experience undoubtedly brings valuable insights and skills, relying solely on this metric can be limiting and may lead to overlooking highly competent candidates. Human Resources (HR) professionals and recruiters need to evolve their approach and adopt more nuanced methods for candidate assessment that prioritize skills, adaptability, and potential.
